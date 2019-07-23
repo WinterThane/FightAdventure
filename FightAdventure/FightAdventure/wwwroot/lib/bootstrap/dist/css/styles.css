@@ -1,0 +1,18 @@
+﻿.container-front {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.table-front {
+    margin-top: 75px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 15%;
+}
+
+.table-front-th {
+    font-size: x-large;
+}

@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - FightAdventure</title>
+    <title>@ViewData["Title"] - Fight Adventure</title>
 
     <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/styles.css" />
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     </environment>
     <environment exclude="Development">
@@ -21,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">FightAdventure</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Fight Adventure</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,16 +41,16 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-front">
         <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - FightAdventure - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2019 - Fight Adventure - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
